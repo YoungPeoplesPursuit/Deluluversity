@@ -77,7 +77,10 @@ nav a:hover {
 
 /* This is the magic: it creates a single row that smoothly scrolls horizontally */
 .gallery-container {
-  display: flex;
+  display: grid;
+    grid-template-rows: repeat(2, auto); 
+  grid-auto-columns: calc(25% - 15px);
+  grid-auto-flow: column;
   gap: 20px; /* Space between artwork cards */
   overflow-x: auto;
   scroll-behavior: smooth;
