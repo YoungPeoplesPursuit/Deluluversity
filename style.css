@@ -67,44 +67,4 @@ nav a:hover {
     gap: 20px;
 
 }
-/* Keeps the container and arrows neatly lined up */
-.gallery-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-}
 
-/* This is the magic: it creates a single row that smoothly scrolls horizontally */
-.gallery-container {
-  display: grid;
-    grid-template-rows: repeat(2, auto); 
-  grid-auto-columns: calc(25% - 15px);
-  grid-auto-flow: column;
-  gap: 20px; /* Space between artwork cards */
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scrollbar-width: none; /* Hides standard ugly scrollbar on Firefox */
-}
-
-/* Hides standard scrollbar on Chrome/Safari */
-.gallery-container::-webkit-scrollbar {
-  display: none;
-}
-
-/* Make sure your artwork cards have a fixed minimum width so they don't squash */
-.gallery-item {
-  flex: 0 0 250px; /* Adjust 250px to whatever size fits your card design */
-}
-
-/* Simple styling for your arrows */
-.arrow-btn {
-  background: #96140b; /* Matching your dark red banner theme! */
-  color: #f2f6f7;
-  border: none;
-  font-size: 24px;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  z-index: 10;
-}
