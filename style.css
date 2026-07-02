@@ -67,4 +67,7 @@ nav a:hover {
     gap: 20px;
 
 }
+.mix-item {
+  display: block; 
+}
 
