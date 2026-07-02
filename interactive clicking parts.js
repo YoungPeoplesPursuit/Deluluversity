@@ -18,15 +18,21 @@
     });
 
     function applyGlobalFilter(category) {
-      const items = document.querySelectorAll('.mix-item');
-      
-      items.forEach(item => {
-        // If the item matches the tag, show it. Otherwise, hide it from view.
-        if (item.getAttribute('data-category') === category) {
-          item.style.display = 'block'; 
-        } else {
-          item.style.display = 'none';
-        }
-      });
+  const items = document.querySelectorAll('.mix-item');
+  
+  items.forEach(item => {
+    // 1. Get the string of tags (e.g., "beaver lake landscape")
+    const itemTags = item.getAttribute('data-tags') || "";
+    
+    // 2. Split the string by spaces into an array of individual tags
+    const tagsArray = itemTags.split(" ");
+
+    // 3. Check if the active filter tag exists in this item's array
+    if (tagsArray.includes(category)) {
+      item.style.display = 'block'; // Show it!
+    } else {
+      item.style.display = 'none';  // Hide it!
     }
+  });
+}
 
