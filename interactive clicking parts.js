@@ -29,10 +29,10 @@
 
     // 3. Check if the active filter tag exists in this item's array
     if (tagsArray.includes(category)) {
-      item.style.display = 'block'; // Show it!
-    } else {
-      item.style.display = 'none';  // Hide it!
-    }
+  item.style.display = ''; // <--- CHANGE THIS! It restores your natural CSS Grid/Flexbox styling
+} else {
+  item.style.display = 'none'; // Keep this! It successfully hides the non-matching cards
+}
   });
 }
 
