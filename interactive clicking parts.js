@@ -10,7 +10,7 @@
         const capitalizedTagName = activeFilter.charAt(0).toUpperCase() + activeFilter.slice(1);
         
         // Change the page heading text dynamically
-        document.getElementById('page-heading').innerText = `Filtered by: ${capitalizedTagName}s`;
+        document.getElementById('page-heading').innerText = `Filtered by: ${capitalizedTagName}`;
 
         // Run the filtering process
         applyGlobalFilter(activeFilter);
