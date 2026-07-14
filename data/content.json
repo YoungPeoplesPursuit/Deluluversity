@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Paper Planes",
+        "type": "blog",
+        "category": "stories",
+        "image": null,
+        "description": "My gold-medal flash fiction piece that immortalized an embarrassing typo. Why did I let this fly?",
+        "links": "https://medium.com/elevatedschool/paper-planes-42bde2cad9c9",
+        "tags": ["writing","2026"],
+    },
+
+    {
+        "title": "Deluluversity Renovations Part 1",
+        "type": "projects",
+        "category": "coding",
+        "image": null,
+        "description": "I added a script to automate website updates which was pretty good Python practice. In my next major renovation I plan to add a search feature and find a way to make cards and navigation bars more mobile friendly.",
+        "links": "https://github.com/YoungPeoplesPursuit/Deluluversity",
+        "tags": ["programming","2026"],
+    }
+]
