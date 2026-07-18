@@ -1,21 +1,51 @@
 [
+   {
+        "title": "A Map fom my Future",
+        "type": "blog",
+        "category": "stories",
+        "image": "images/art/MIT map.JPG",
+        "description": "One of my favorite memories. Fifteen minutes at the welcome center slash admissions office, a map, and proof that kindness is truly beautiful.",
+        "links": "https://medium.com/@billy.gao/a-map-from-my-future-08059252470b",
+        "tags": ["writing","math","mit","admissions","2026"],
+    },
+
     {
         "title": "Paper Planes",
         "type": "blog",
         "category": "stories",
         "image": null,
-        "description": "My gold-medal flash fiction piece that immortalized an embarrassing typo. Why did I let this fly?",
+        "description": "My gold-medal flash fiction piece that immortalized an embarrassing typo. It was the peak of my writing career, but how did I let that fly by?",
         "links": "https://medium.com/elevatedschool/paper-planes-42bde2cad9c9",
         "tags": ["writing","2026"],
     },
 
     {
-        "title": "Deluluversity Renovations Part 1",
+        "title": "Barker Sailing",
+        "type": "art",
+        "category": "animals",
+        "image": "images/art/BarkerSailing.jpg",
+        "description": "I was super excited for sailing at CPW so I painted Barker in a dinghy!",
+        "links": null,
+        "tags": ["barker", "beaver", "boat","2026"],
+    },
+
+    {
+        "title": "Barker's art class",
+        "type": "projects",
+        "category": "crafts",
+        "image": "images/art/BarkerCPWArt.jpg",
+        "description": "Barker loved modeling at the mini canvas painting at CPW! My classmates did an amazing job capturing his physique.",
+        "links": null,
+        "tags": ["barker", "beaver","2026"],
+    },
+
+    {
+        "title": "Deluluversity Renovations Part 1: Update Automations",
         "type": "projects",
         "category": "coding",
         "image": null,
-        "description": "I added a script to automate website updates which was pretty good Python practice. In my next major renovation I plan to add a search feature and find a way to make cards and navigation bars more mobile friendly.",
-        "links": "https://github.com/YoungPeoplesPursuit/Deluluversity",
+        "description": "I added a script to automate website updates which was pretty good Python practice. Instead of writing and copying HTML format, I edit a JSON and the Python script translates that into HTML format and updates the pages.",
+        "links": "https://github.com/YoungPeoplesPursuit/Deluluversity/tree/main/automation",
         "tags": ["programming","2026"],
     }
 ]
