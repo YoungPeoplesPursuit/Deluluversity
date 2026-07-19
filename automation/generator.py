@@ -78,18 +78,19 @@ for page in pages:
 
     else:
         for section in pages[page]:
-        #move stuff to correct place with the start and end
+    
             start = f"<!-- AUTO:{page}:{section}:start -->"
             end = f"<!-- AUTO:{page}:{section}:end -->"
-
-            new_html = (
-                    html.split(start)[0]
-                    + start
-                    + " ".join(websiteSections[f'{page}:{section}'])
-                    + end
-                    + html.split(end)[1]
+    
+            html = (
+                html.split(start)[0]
+                + start
+                + " ".join(websiteSections[f'{page}:{section}'])
+                + end
+                + html.split(end)[1]
             )
-            #print(new_html)
+    
+        new_html = html
 
 
     with open(html_path, "w", encoding="utf-8") as f:
