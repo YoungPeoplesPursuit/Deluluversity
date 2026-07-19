@@ -8,7 +8,7 @@ with open("data/content.json", "r", encoding="utf-8") as f:
 def addTags(tags):
     result = []
     for tag in tags:
-        result.append(f'<a href="everything.html?filter={tag}">#{tag}</a>') #the f preserves formatting so I can use tag like a variable
+        result.append(f'<a href="everything.html?filter={tag}">#{tag} </a>') #the f preserves formatting so I can use tag like a variable
     return "".join(result)
 
 def addLinks(links):
@@ -19,7 +19,7 @@ def addLinks(links):
 
 def makeCard(entry,everything):
     if everything:
-        card = f'<div class=\"card mix-item\" data-tags = {" ".join(entry["tags"])}> \n '
+        card = f'<div class="card mix-item" data-tags="{ " ".join(entry["tags"]) }">\n'
     else:
         card = f'<div class=\"card\"> \n '
     if entry["image"]:
