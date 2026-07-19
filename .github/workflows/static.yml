@@ -33,7 +33,7 @@ jobs:
           python-version: "3.x"
 
       - name: Generate website
-        run: python automation/generate.py
+        run: python automation/generator.py
 
       # Existing stuff
       - name: Setup Pages
