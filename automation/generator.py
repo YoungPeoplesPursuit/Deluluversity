@@ -59,7 +59,7 @@ for entry in content:
 #now move the cards to the right places
 for page in pages:
     #read HTML file for the correct page
-    html_path = f"../{page}.html"
+    html_path = f"{page}.html"
 
     with open(html_path, "r", encoding="utf-8") as f:
         html = f.read()
