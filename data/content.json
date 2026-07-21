@@ -1,12 +1,22 @@
 [
    {
+        "title": "Floating my Boat",
+        "type": "blog",
+        "category": "essays",
+        "image": null,
+        "description": "How I came to be obsessed with boats. And some delulu come true via a Tech Dinghy.",
+        "links": ["https://medium.com/@billy.gao/floating-my-boat-4908a0755ca7"],
+        "tags": ["boston","boat","mit","2026"]
+    },
+   
+   {
         "title": "A Map fom my Future",
         "type": "blog",
         "category": "stories",
         "image": null,
         "description": "One of my favorite memories. Fifteen minutes at the welcome center slash admissions office, a map, and proof that kindness is truly beautiful.",
         "links": ["https://medium.com/@billy.gao/a-map-from-my-future-08059252470b"],
-        "tags": ["writing","math","mit","admissions","2026"]
+        "tags": ["Udelulu","math","mit","admissions","2026"]
     },
 
     {
