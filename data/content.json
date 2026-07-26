@@ -1,10 +1,20 @@
 [
    {
+        "title": "Is Attention All You Need?",
+        "type": "blog",
+        "category": "essays",
+        "image": null,
+        "description": "I love attention (attenton mechanisms too but mostly attention from other people). But am I only delulu for attention or do I genuinely pay attention to the delulu?",
+        "links": ["https://medium.com/@billy.gao/is-attention-all-you-need-eecd1a0af27c"],
+        "tags": ["machine-learning","content-creation","commencement","2026"]
+    },
+   
+   {
         "title": "Floating my Boat",
         "type": "blog",
         "category": "essays",
         "image": null,
-        "description": "How I came to be obsessed with boats. And some delulu come true via a Tech Dinghy.",
+        "description": "How I came to be obsessed with boats... and it's more than a phase because delulu comes true on the Charles River. I think boats are beautiful and that is an axiom that doesn't require justification. But how far am I willing to go?",
         "links": ["https://medium.com/@billy.gao/floating-my-boat-4908a0755ca7"],
         "tags": ["boston","boat","mit","2026"]
     },
