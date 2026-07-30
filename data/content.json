@@ -1,5 +1,23 @@
 [
       {
+        "title": "What I would tell my High School Self",
+        "type": "study-guides",
+        "category": "college apps",
+        "image": null,
+        "description": "The mindsets I learned throughout high school that helped me perpare for college applications. Yes, there are stories behind each section that I might expand upon later. But this is the TLDR of my takeaways from high school.",
+        "links": ["https://medium.com/@billy.gao/what-i-would-tell-my-high-school-self-df72b76e93a8"],
+        "tags": ["Udelulu","admissions","mit","2026"]
+    },
+      {
+        "title": "A Problem of Scale",
+        "type": "blog",
+        "category": "essays",
+        "image": null,
+        "description": "My process of organizing and updating the Deluluversity to support scaling content. Even though the Deluluversity is infrastructure for my creative pursuits, I have not yet figured out the of scaling my life to do everything I love which is a very sad problem.",
+        "links": ["https://medium.com/@billy.gao/a-problem-of-scale-ce3658c06299"],
+        "tags": ["Udelulu","programming","mit","2026"]
+    },
+      {
         "title": "Tim's Internship",
         "type": "art",
         "category": "cartoons",
@@ -31,7 +49,7 @@
    {
         "title": "Floating my Boat",
         "type": "blog",
-        "category": "essays",
+        "category": "stories",
         "image": null,
         "description": "How I came to be obsessed with boats... and it's more than a phase because delulu comes true on the Charles River. I think boats are beautiful and that is an axiom that doesn't require justification. But how far am I willing to go?",
         "links": ["https://medium.com/@billy.gao/floating-my-boat-4908a0755ca7"],
