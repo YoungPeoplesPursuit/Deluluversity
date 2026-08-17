@@ -11,10 +11,10 @@ def addTags(tags):
         result.append(f'<a href="everything.html?filter={tag}">#{tag} </a>') #the f preserves formatting so I can use tag like a variable
     return "".join(result)
 
-def addLinks(links):
+def addLinks(links,linktext):
     result = []
     for i in range (len(links)):
-        result.append(f'<a href={links[i]} target= "_blank"> {linktext[i]} </a>') #the f preserves formatting so I can use tag like a variable
+        result.append(f'<a href="{links[i]}" target= "_blank"> {linktext[i]} </a>') #the f preserves formatting so I can use tag like a variable
     return "".join(result)
 
 def makeCard(entry,everything):
@@ -27,7 +27,7 @@ def makeCard(entry,everything):
 
     card +=       f'<h3>{entry["title"]}</h3> \n <p> {entry["description"]} </p> \n '
     if entry["links"]:
-        newlinks = addLinks(entry['links'])
+        newlinks = addLinks(entry['links'],entry['linktext'])
         card += f'{newlinks} \n '
     newtags = addTags(entry['tags'])
     card += f'{newtags} \n </div> \n'
