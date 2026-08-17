@@ -13,8 +13,8 @@ def addTags(tags):
 
 def addLinks(links):
     result = []
-    for link in links:
-        result.append(f'<a href={link} target= "_blank"> View Here </a>') #the f preserves formatting so I can use tag like a variable
+    for i in range (len(links)):
+        result.append(f'<a href={links[i]} target= "_blank"> {linktext[i]} </a>') #the f preserves formatting so I can use tag like a variable
     return "".join(result)
 
 def makeCard(entry,everything):
@@ -95,3 +95,5 @@ for page in pages:
 
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(new_html)
+
+
