@@ -1,38 +1,77 @@
 
-    window.addEventListener('DOMContentLoaded', () => {
-      // 1. Grab the filter value from the URL (e.g., ?filter=beaver)
-      const urlParams = new URLSearchParams(window.location.search);
-      const activeFilter = urlParams.get('filter');
-
-      // 2. If a filter exists in the URL, update the heading and filter items
-      if (activeFilter) {
-        // Capitalizes the tag name safely (e.g., "beaver" -> "Beaver")
+// Handle search form submission
+function handleSearch(event) {
+    event.preventDefault();
+    
+    const query = document.getElementById('search-input').value.trim();
+    
+    if (!query) {
+        return; 
+    }
+    
+    // Redirect to everything.html 
+    window.location.href = `everything.html?search=${encodeURIComponent(query)}`;
+}
+ 
+// On page load, check if we're on everything.html with a search query
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // check for tag filters and search filters
+    const activeFilter = urlParams.get('filter');
+    const searchQuery = urlParams.get('search');
+    
+    // filter for tags
+    if (activeFilter) {
         const capitalizedTagName = activeFilter.charAt(0).toUpperCase() + activeFilter.slice(1);
-        
-        // Change the page heading text dynamically
         document.getElementById('page-heading').innerText = `Filtered by: ${capitalizedTagName}`;
-
-        // Run the filtering process
         applyGlobalFilter(activeFilter);
-      }
-    });
+    }
+    
+    // filter for search queries
+    if (searchQuery) {
+        document.getElementById('page-heading').innerText = `Search results for: "${searchQuery}"`;
+        applySearchFilter(searchQuery);
+    }
+});
+ 
+// searches title, description, tags... to filter for search query
+function applySearchFilter(query) {
+    const items = document.querySelectorAll('.mix-item');
+    const lowerQuery = query.toLowerCase();
+    
+    items.forEach(item => {
+        // get item content and see if the query matches
+        const title = item.querySelector('h3')?.textContent.toLowerCase() || '';
+        const description = item.querySelector('p')?.textContent.toLowerCase() || '';
+        const tagsString = item.getAttribute('data-tags') || '';
 
+        const matchesTitle = title.includes(lowerQuery);
+        const matchesDescription = description.includes(lowerQuery);
+        const matchesTags = tagsString.toLowerCase().includes(lowerQuery);
+
+        // Display if a match, else none
+        if (matchesTitle || matchesDescription || matchesTags) {
+            item.style.display = ''; 
+        } else {
+            item.style.display = 'none'; 
+        }
+    });
+}
+
+// general tag filter
     function applyGlobalFilter(category) {
   const items = document.querySelectorAll('.mix-item');
   
   items.forEach(item => {
-    // 1. Get the string of tags (e.g., "beaver lake landscape")
+    // gets and splits string of tags, then checks if the tag exists in the array
     const itemTags = item.getAttribute('data-tags') || "";
-    
-    // 2. Split the string by spaces into an array of individual tags
     const tagsArray = itemTags.split(" ");
-
-    // 3. Check if the active filter tag exists in this item's array
     if (tagsArray.includes(category)) {
-  item.style.display = ''; // <--- CHANGE THIS! It restores your natural CSS Grid/Flexbox styling
+  item.style.display = ''; 
 } else {
-  item.style.display = 'none'; // Keep this! It successfully hides the non-matching cards
+  item.style.display = 'none'; 
 }
   });
 }
-
+ 
