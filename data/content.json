@@ -1,11 +1,32 @@
 [      
       {
+        "title": "What I Wish I Knew Applying to College",
+        "type": "study-guides",
+        "category": "college apps",
+        "image": null,
+        "description": "Divulging my main college admissions tips so you don't figure them out the hard way, from general mindsets to section specific pointers I wish I knew.",
+        "links": ["https://medium.com/@billy.gao/what-i-wish-i-knew-applying-to-college-6563dd4432e3"],
+        "linktext": ["View on Medium"],
+        "tags": ["Udelulu","admissions","2026"]
+    },
+      {
+        "title": "College App tracking templates and tools",
+        "type": "study-guides",
+        "category": "college apps",
+        "image": null,
+        "description": "One of the biggest lessons I learned was you don'tneed to bust money on fancy softwares or planners when Google calendar and sheets exist. I learned a bit of spreadsheet tricks and am quite proud of how it turned out.",
+        "links": ["https://https://docs.google.com/document/d/1XKTZKe2Mf6KPb_1drY8_J1oJGGpA2VqEkp2xCu9UOBM/edit?usp=sharing"],
+        "linktext": ["View document"],
+        "tags": ["Udelulu","admissions","studying","2026"]
+    },
+      {
         "title": "Why Delulu",
         "type": "blog",
         "category": "stories",
         "image": null,
         "description": "A central piece of U Delulu lore of how I came to love colleges in the first place. And a conjecture that college admissions is isomorphic to love",
         "links": ["https://medium.com/@billy.gao/variations-on-harvard-why-delulu-28e4724138cf"],
+        "linktext": ["View on Medium"],
         "tags": ["Udelulu","admissions","harvard","mit","2026"]
     },
       {
@@ -15,6 +36,7 @@
         "image": "images/art/tech-dinghies.png",
         "description": "Tech dinghies! I found a whole manual about them on the MIT sailing page. This is under-rendered compared to my other works but sailboats are officially my new favorite thing to draw. Please let me get into the sailing class!!!",
         "links": null,
+        "linktext": null,    
         "tags": ["boston","boat", "mit","2026"]
     },
       {
@@ -24,6 +46,7 @@
         "image": "images/art/brochure1.JPG",
         "description": "An idyllic scene fit for a college brochure. Been trying to work on my fundamentals and not use heavy rendering as a clutch. I quite like the lighting. Frosh has found eternal peace.",
         "links": null,
+        "linktext": null,  
         "tags": ["thefrosh", "studying","2026"]
     },
       {
@@ -33,6 +56,7 @@
         "image": "images/art/brochure3.JPG",
         "description": "A more ambitious composition of a quintessential college scene. Reading on the quad with a bike and a frisbee? How much more collegiate does it get?",
         "links": null,
+        "linktext": null,  
         "tags": ["thefrosh", "studying","2026"]
     },
       {
@@ -42,7 +66,8 @@
         "image": "images/art/brochure2.JPG",
         "description": "I am bad at playing frisbee but I discovered that I am worse at drawing frisbee players.",
         "links": null,
-        "tags": ["thefrosh", "studying","2026"]
+        "linktext": null,  
+        "tags": ["thefrosh","2026"]
     },
       {
         "title": "What I would tell my High School Self",
@@ -51,7 +76,8 @@
         "image": null,
         "description": "The mindsets I learned throughout high school that helped me perpare for college applications. Yes, there are stories behind each section that I might expand upon later. But this is the TLDR of my takeaways from high school.",
         "links": ["https://medium.com/@billy.gao/what-i-would-tell-my-high-school-self-df72b76e93a8"],
-        "tags": ["Udelulu","admissions","mit","2026"]
+        "linktext": ["View on Medium"],
+        "tags": ["Udelulu","admissions","2026"]
     },
       {
         "title": "A Problem of Scale",
@@ -60,7 +86,8 @@
         "image": null,
         "description": "My process of organizing and updating the Deluluversity to support scaling content. Even though the Deluluversity is infrastructure for my creative pursuits, I have not yet figured out the of scaling my life to do everything I love which is a very sad problem.",
         "links": ["https://medium.com/@billy.gao/a-problem-of-scale-ce3658c06299"],
-        "tags": ["Udelulu","programming","mit","2026"]
+        "linktext": ["View on Medium"],
+        "tags": ["Udelulu","programming","2026"]
     },
       {
         "title": "Tim's Internship",
@@ -69,6 +96,7 @@
         "image": "images/art/tims-internship.png",
         "description": "Drawing Tim the Beaver was one of MIT's orientation games. I imagined Tim enjoying the communte to his internship at his dream company! It felt so refreshing to get back into art.",
         "links": null,
+        "linktext": null,  
         "tags": ["mit", "beaver","2026"]
     },
    {
@@ -78,6 +106,7 @@
         "image": null,
         "description": "This was the last piece I wrote for a contest before I quit. I decided not to submit it. I was venting about why I love prestige so much after losing a debate tournament. I knew I was only this desperate because I wanted the life in the stock photos.",
         "links": ["https://medium.com/@billy.gao/the-harvard-variations-8b5aaf3cdfaa"],
+        "linktext": ["View on Medium"],
         "tags": ["Udelulu","writing","harvard","admissions","2024"]
     },
    
@@ -88,6 +117,7 @@
         "image": null,
         "description": "I love attention (attenton mechanisms too but mostly attention from other people). But am I only delulu for attention or do I genuinely pay attention to the delulu?",
         "links": ["https://medium.com/@billy.gao/is-attention-all-you-need-eecd1a0af27c"],
+        "linktext": ["View on Medium"],
         "tags": ["machine-learning","content-creation","commencement","2026"]
     },
    
@@ -98,7 +128,8 @@
         "image": null,
         "description": "How I came to be obsessed with boats... and it's more than a phase because delulu comes true on the Charles River. I think boats are beautiful and that is an axiom that doesn't require justification. But how far am I willing to go?",
         "links": ["https://medium.com/@billy.gao/floating-my-boat-4908a0755ca7"],
-        "tags": ["boston","boat","mit","2026"]
+        "linktext": ["View on Medium"],
+        "tags": ["boston","boat","2026"]
     },
    
    {
@@ -108,6 +139,7 @@
         "image": null,
         "description": "One of my favorite memories. Fifteen minutes at the welcome center slash admissions office, a map, and proof that kindness is truly beautiful.",
         "links": ["https://medium.com/@billy.gao/a-map-from-my-future-08059252470b"],
+        "linktext": ["View on Medium"],
         "tags": ["Udelulu","math","mit","admissions","2026"]
     },
 
@@ -118,6 +150,7 @@
         "image": null,
         "description": "My gold-medal flash fiction piece that immortalized an embarrassing typo. It was the peak of my writing career, but how did I let that fly by?",
         "links": ["https://medium.com/elevatedschool/paper-planes-42bde2cad9c9"],
+        "linktext": ["View on Medium"],
         "tags": ["writing","2026"]
     },
 
@@ -128,6 +161,7 @@
         "image": "images/art/BarkerSailing.jpg",
         "description": "I was super excited for sailing at CPW so I painted Barker in a dinghy!",
         "links": null,
+        "linktext": null,  
         "tags": ["barker", "beaver", "boat","2026"]
     },
 
@@ -138,6 +172,7 @@
         "image": "images/art/BarkerCPWArt.jpg",
         "description": "Barker loved modeling at the mini canvas painting at CPW! My classmates did an amazing job capturing his physique.",
         "links": null,
+        "linktext": null,  
         "tags": ["barker", "beaver","2026"]
     },
 
@@ -148,6 +183,7 @@
         "image": null,
         "description": "I added a script to automate website updates which was pretty good Python practice. Instead of writing and copying HTML format, I edit a JSON and the Python script translates that into HTML format and updates the pages.",
         "links": ["https://github.com/YoungPeoplesPursuit/Deluluversity/tree/main/automation"],
+        "linktext": ["View on Github"],  
         "tags": ["programming","2026"]
     }
 ]
