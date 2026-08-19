@@ -33,6 +33,30 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('page-heading').innerText = `Search results for: "${searchQuery}"`;
         applySearchFilter(searchQuery);
     }
+// I'm feeling delulu
+    if (randomMode === 'true') {
+        const cards = document.querySelectorAll('.mix-item');
+
+        if (cards.length > 0) {
+            const randomIndex = Math.floor(Math.random() * cards.length);
+            const randomCard = cards[randomIndex];
+
+            // hide all cards
+            cards.forEach(card => {
+                card.style.display = 'none';
+            });
+
+            // show the random card
+            randomCard.style.display = '';
+
+            // scroll to it
+            randomCard.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+        }
+    }
+    
 });
  
 // searches title, description, tags... to filter for search query
@@ -74,4 +98,8 @@ function applySearchFilter(query) {
 }
   });
 }
- 
+
+// Delulu button function
+function feelingDelulu() {
+    window.location.href = "everything.html?random=true";
+}
