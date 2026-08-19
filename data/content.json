@@ -1,5 +1,35 @@
 [      
       {
+        "title": "Sweet Home Alabama",
+        "type": "blog",
+        "category": "stories",
+        "image": null,
+        "description": "Doing my best to say goodbye to home. Memories that feel trivial until you realize the background will completely change.",
+        "links": ["https://medium.com/@billy.gao/sweet-home-alabama-4238bb465b68"],
+        "linktext": ["View on Medium"],
+        "tags": ["boston","2026"]
+    },
+      {
+        "title": "Every College Brochure Ever!",
+        "type": "art",
+        "category": "cartoons",
+        "image": "images/art/EveryCollegeBrochureEver.png",
+        "description": "Beautiful sunlit quads, happy students, a pretty (annoying) bell tower everyone eventually admits to liking, and even a statistics page with lots of numbers like every college brochure! Don't worry, the Deluluversity will have a better brochure than every college ever! I have been working on stylizing my art. ",
+        "links": ["https://canva.link/8wg6l4gzwsd36yv"],
+        "linktext": ["Canva Link"],
+        "tags": ["Udelulu","admissions","thefrosh","2026"]
+    },
+      {
+        "title": "Deluluversity Renovations Part 2: Searching and Finding",
+        "type": "projects",
+        "category": "coding",
+        "image": null,
+        "description": "I added a search bar and a feeling delulu button similar to Google's I'm feeling lucky. I thought I needed to migrate all of my files to the JSON but thankfully I could read the fileson the everything page so I did not need the migration...unless I have more ambitious projects later on.",
+        "links": ["https://github.com/YoungPeoplesPursuit/Deluluversity/tree/main"],
+        "linktext": ["View on Github"],  
+        "tags": ["programming","2026"]
+    },
+      {
         "title": "What I Wish I Knew Applying to College",
         "type": "study-guides",
         "category": "college apps",
