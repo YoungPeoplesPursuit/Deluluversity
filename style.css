@@ -74,17 +74,26 @@ nav a:hover {
 /* search bar section */
 
 .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     padding: 15px 20px;
     background-color: #b7d8eb;
-    text-align: center;
 }
- 
+
 #search-form {
-    display: inline-block;
     width: 100%;
     max-width: 500px;
 }
- 
+
+#search-button {
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #053e5e;
+    color: #dec5c3;
+}
+
 #search-input {
     width: 100%;
     padding: 10px 15px;
@@ -95,13 +104,13 @@ nav a:hover {
     color: #053e5e;
     box-sizing: border-box;
 }
- 
+
 #search-input:focus {
     outline: none;
     border-color: #96140b;
     box-shadow: 0 0 0 2px rgba(150, 20, 11, 0.1);
 }
- 
+
 #search-input::placeholder {
     color: #999;
 }
