@@ -1,3 +1,10 @@
+console.log("JS LOADED");
+
+//Delulu button debugging
+function feelingDelulu() {
+    console.log("BUTTON WORKED");
+    window.location.href = "everything.html?random=true";
+}
 
 // Handle search form submission
 function handleSearch(event) {
@@ -99,7 +106,3 @@ function applySearchFilter(query) {
   });
 }
 
-// Delulu button function
-function feelingDelulu() {
-    window.location.href = "everything.html?random=true";
-}
