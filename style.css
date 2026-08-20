@@ -91,7 +91,9 @@ nav a:hover {
     padding: 10px 16px;
     cursor: pointer;
     background-color: #053e5e;
+    font-family: "Trebuchet MS", sans-serif;
     color: #dec5c3;
+    border: none;
 }
 
 #search-input {
@@ -113,4 +115,8 @@ nav a:hover {
 
 #search-input::placeholder {
     color: #999;
+}
+
+.random-hidden {
+    display: none !important;
 }
