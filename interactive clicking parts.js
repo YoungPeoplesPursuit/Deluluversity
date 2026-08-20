@@ -43,27 +43,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 // I'm feeling delulu
     if (randomMode === 'true') {
-        const cards = document.querySelectorAll('.mix-item');
+    const cards = document.querySelectorAll('.mix-item');
 
-        if (cards.length > 0) {
-            const randomIndex = Math.floor(Math.random() * cards.length);
-            const randomCard = cards[randomIndex];
+    if (cards.length > 0) {
+        const randomIndex = Math.floor(Math.random() * cards.length);
+        const randomCard = cards[randomIndex];
 
-            // hide all cards
-            cards.forEach(card => {
-                card.style.display = 'none';
-            });
+        cards.forEach(card => {
+            card.classList.add('random-hidden');
+        });
 
-            // show the random card
-            randomCard.style.display = '';
+        randomCard.classList.remove('random-hidden');
 
-            // scroll to it
-            randomCard.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center'
-            });
-        }
+        randomCard.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
     }
+}
     
 });
  
