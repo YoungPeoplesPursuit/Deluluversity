@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // check for tag filters and search filters
     const activeFilter = urlParams.get('filter');
     const searchQuery = urlParams.get('search');
+    const randomMode = urlParams.get('random');
     
     // filter for tags
     if (activeFilter) {
